@@ -1,3 +1,3 @@
-class ApplicationRecord < ActiveRecord::Base
-  self.abstract_class = true
+class Group < ApplicationRecord
+ #validates :title, presence: true
 end
